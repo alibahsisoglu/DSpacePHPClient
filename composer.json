@@ -1,0 +1,35 @@
+{
+  "name": "okulbilisim/dspacephpclient",
+  "license": "MIT",
+  "type": "project",
+  "description": "DSpace PHP Client",
+  "version": "0.1.0",
+  "keywords": [
+    "dspace",
+    "harvester"
+  ],
+  "support": {
+    "email": "info@okulbilisim.com"
+  },
+  "autoload": {
+    "psr-0": {
+      "OkulBilisim\\DSpacePHPClient": "src/OkulBilisim/DSpacePHPClient/"
+    }
+  },
+  "require": {
+    "php": ">=5.4",
+    "guzzlehttp/guzzle": "*"
+  },
+  "require-dev": {
+    "ext-openssl": "*",
+    "ext-pcre": "*",
+    "ext-spl": "*",
+    "ext-json": "*",
+    "ext-dom": "*",
+    "ext-simplexml": "*",
+    "phpunit/phpunit": "~4.0"
+  },
+  "suggest": {
+    "ext-curl": "To send requests using cURL"
+  }
+}
