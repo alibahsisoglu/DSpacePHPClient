@@ -11,6 +11,17 @@
   "support": {
     "email": "info@okulbilisim.com"
   },
+  "authors": [
+    {
+      "name": "Hüseyin Mert",
+      "role": "Developer"
+    },
+    {
+      "name": "Ali Bahşişoğlu",
+      "role": "Developer",
+      "email": "ali@bahsisoglu.com"
+    }
+  ],
   "autoload": {
     "psr-0": {
       "OkulBilisim\\DSpacePHPClient": "src/OkulBilisim/DSpacePHPClient/"
